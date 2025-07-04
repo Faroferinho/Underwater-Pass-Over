@@ -8,7 +8,7 @@ from pgzero.keyboard import keyboard
 #Constants
 WIDTH = 640
 HEIGHT = 480
-TITLE = "Underwater Marathon"
+TITLE = "Underwater Passover"
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
@@ -360,7 +360,7 @@ def draw_menu():
     sounds_color = GREEN if sounds_button_hover else WHITE
     exit_color = GREEN if exit_button_hover else WHITE
 
-    screen.draw.text("Menu", (50, 90), color=WHITE, fontsize=90)
+    screen.draw.text("Underwater Passover", (50, 90), color=WHITE, fontsize=70)
     screen.draw.text("Começar Jogo", (65, 165), color=start_color, fontsize=30)
     screen.draw.text("Ligar Sons", (65, 205), color=sounds_color, fontsize=30)
     screen.draw.text("Sair", (65, 250), color=exit_color, fontsize=30)
